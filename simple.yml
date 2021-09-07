@@ -11,7 +11,7 @@ services:
   ui:
     image: joxit/docker-registry-ui:latest
     ports:
-      - 80:80
+      - 8081:80
     environment:
       - REGISTRY_TITLE=Docker-Registry-UI
       - REGISTRY_URL=http://localhost:5000
